@@ -1,0 +1,37 @@
+{
+  "name": "openventuro",
+  "version": "0.0.1",
+  "description": "Scaffold a SaaS monorepo with Next.js, Hono, Turborepo, and shadcn-ready web app",
+  "type": "module",
+  "bin": {
+    "openventuro": "bin/openventuro.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "keywords": [
+    "cli",
+    "scaffold",
+    "monorepo",
+    "nextjs",
+    "hono",
+    "turborepo",
+    "shadcn"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kkasaei/openventuro.git"
+  },
+  "homepage": "https://github.com/kkasaei/openventuro",
+  "bugs": {
+    "url": "https://github.com/kkasaei/openventuro/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
